@@ -1,0 +1,11 @@
+{
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar"
+        ],
+        "exclude": [
+            "d:\\Phần mềm\\jfreechart-1.0.19\\jfreechart-1.0.19-demo.jar",
+            "d:\\Phần mềm\\jfreechart-1.0.19\\jfreechart-1.0.19-demo.jar"
+        ]
+    }
+}

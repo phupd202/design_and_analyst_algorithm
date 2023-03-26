@@ -1,0 +1,58 @@
+Asignment 2
+1. Trình bày sơ lược về độ phức tạp của thuật toán
+
+2. Một số ví dụ
+Ex1:
+a.f(n) = 4n + 8 <= 5n
+<=> n >= 8
+Với c = 5, n0 = 8 -> f(n) = O(n)
+
+b.f(n) = 3n^2 + 2 <= 4n^2
+<=> n >= sqrt(2) hoặc n <= -sqrt(2)
+Với c = 4, n0 = sqrt(2) -> f(n) = O(n^2)
+
+c. f(n) = n^4 + 100n^2 + 80
+f(n) <= 2n^4 
+<=> n^4 - 100n^2 - 80 >=0
+<=> n^2 >= 100.8 hoặc n^2 <= -0.8(loại)
+<=> n > sqrt(100.8)
+Với n0 = sqrt(100.8), c = 2 --> f(n) = O(n^4)
+
+d. f(n) = 5n^3 - 5n^2 = 5n^2(n - 1) <= 5n^3
+c = 5 --> O(n^3)
+--> Luôn đúng với mọi n
+
+e. f(n) = 508 <509 (luôn đúng)
+O(1)
+Ex2: O(1)
+Ex3: O(n)
+Ex4: O(1)
+Ex5: O(logn)
+Ex6: O(n^2)
+
+3. Bài tập vận dụng
+Ex1:
+a. O(nlogn)
+b. O(n^2.log(n))
+c. O(n^2)
+d. O(n^3)
+e. O(n.(logn)^2)
+Ex2:
+a. O(n) ( Do vòng lặp chạy từ 0 đến n - 1)
+b. 
+Số lần thực hiện phép toán trong vòng lặp là 
+((n-1) - 0)/ 2 + 1: Nếu n lẻ
+((n-2) - )/ 2 + 1: Nếu n chắn
+--> Sử dụng quy tắc ngắt bỏ hằng số, ta có độ phức tạp là O(n)
+c. 
+Số lâng thực hiện trong vòng lặp 1: O(n)
+Số lâng thực hiện trong vòng lặp 2: O(n)
+--> Độ phức tạp là O(n^2)
+
+d. 
+Độ phức tạp là O(n)
+e. 
+VÒng lặp thứ nhất: O(n)
+Vòng lặp thứ hai: O(n)
+Vòng lặp thứ ba: O(n)
+--> Độ phức tạp của đoạn code là: O(n^3)
