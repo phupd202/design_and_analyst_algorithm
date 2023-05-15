@@ -1,4 +1,4 @@
-package hw4_20001958.ex4.closest_point;
+package Hw4_20001958.ex4.closest_point;
 
 import java.util.Comparator;
 

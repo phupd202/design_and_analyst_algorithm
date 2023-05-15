@@ -1,4 +1,4 @@
-package hw4_20001958.ex4.fake_coin;
+package Hw4_20001958.ex4.fake_coin;
 
 /*
  * Ý tưởng: Sử dụng phương pháp chia để trị để giải quyết bài toán tìm đồng xu giả, n đồng xu sẽ được mã hoá 

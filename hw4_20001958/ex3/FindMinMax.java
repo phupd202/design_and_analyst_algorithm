@@ -1,4 +1,4 @@
-package hw4_20001958.ex3;
+package Hw4_20001958.ex3;
 
 import java.util.Arrays;
 import java.util.Random;
